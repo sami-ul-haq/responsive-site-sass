@@ -1,0 +1,19 @@
+// Template Main Style File
+
+// Bootstrap File
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// OWL Carousel
+@import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap');
+
+
+// Template
+@import './include/variables';
+@import './include/global';
+@import './include/header';
+@import './include/banner';
+@import './include/tech';

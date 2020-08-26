@@ -1,0 +1,35 @@
+// This IS Banner Section
+
+#banner{
+    background-image: url(../../assets/backgroundimg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .space{
+        display: flex;
+        justify-content: center;
+        padding-top: 9rem;
+        width: 100%;
+        height: 600px;
+        color: white;
+
+        .buttons{
+            >a{
+                margin-right: .7rem;
+                padding: .4rem 1.8rem;
+                &:hover{
+                    background: white !important;
+                    >span{
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:992px){
+        .space{
+            padding-top: 8rem;
+            height: 500px;
+        }
+    }
+}
